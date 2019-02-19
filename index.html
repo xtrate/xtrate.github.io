@@ -1,1 +1,137 @@
-Under construction!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Xtrate :: Github</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header big">
+        <div class="logo">
+            <div class="ring_logo"></div>
+        </div>
+        <div class="name_logo">
+            xtrate
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="divisor"></div>
+        <div class="content">
+            <div class="first_text">Navege por las carpetas según su interes. Recuerde que esta información es netamente con propositos educativos. [ <span>Así dicen ;)</span> ] </div>
+            <div>
+                <ul>
+                    <!--Carpeta-->
+                    <li class="li_root">
+                        <button class="dropdown-btn"> 
+                            <div class="content_btn content_btn_root">
+                                <div class="row_root"></div>
+                                <div><img src="./assets/folder-icon.png" width="30px"></div>
+                                <div>CTF <span>(Capture The Flag)</span></div>
+                            </div>                    
+                        </button>
+                        <ul class="dropdown-container level1">
+                            <!-- Machine Active HTB-->
+                            <li>
+                                <button class="dropdown-btn">
+                                    <div class="content_btn">
+                                        <div><img src="./assets/folder-icon.png" width="30px"></div>
+                                        <div>HackTheBox <span>(Active)</span></div>
+                                    </div>
+                                </button>
+                                <ul class="dropdown-container level2">
+                                    <li class="li_ctf">
+                                        <div class="img_ctf_htb"><img src="./assets/machines/carrier.png" alt="Carrier"></div>
+                                        <div class="name_ctf_htb">Carrier</div>
+                                    </li>
+                                    <li class="li_ctf">
+                                        <div class="img_ctf_htb"><img src="./assets/machines/access.png" alt="Access"></div>
+                                        <div class="name_ctf_htb">Access</div>
+                                    </li>
+                                    <li class="li_ctf">
+                                        <div class="img_ctf_htb"><img src="./assets/machines/curling.png" alt="Curling"></div>
+                                        <div class="name_ctf_htb">Curling</div>
+                                    </li>
+                                    <li class="li_ctf">
+                                        <div class="img_ctf_htb"><img src="./assets/machines/irked.png" alt="Irked"></div>
+                                        <div class="name_ctf_htb">Irked</div>
+                                    </li>
+                                    <li class="li_ctf">
+                                        <div class="img_ctf_htb"><img src="./assets/machines/teacher.png" alt="Teacher"></div>
+                                        <div class="name_ctf_htb">Teacher</div>
+                                    </li>
+                                    <li class="li_ctf">
+                                        <div class="img_ctf_htb"><img src="./assets/machines/Chaos.png" alt="Chaos"></div>
+                                        <div class="name_ctf_htb">Chaos</div>
+                                    </li>
+                                    <li class="li_ctf">
+                                        <div class="img_ctf_htb"><img src="./assets/machines/help.png" alt="help"></div>
+                                        <div class="name_ctf_htb">Help</div>
+                                    </li>
+                                    <li class="li_info info_htb_active"><span>Nota:</span> Por politicas de HTB el WriteUp de las maquinas activas no se mostrará, sin embargo puede contactarme y con gusto le daré pistas.</li>
+                                </ul>
+                            </li>
+                            <!-- Machine Inactive HTB-->
+                            <li>
+                                <button class="dropdown-btn">
+                                    <div class="content_btn">
+                                        <div><img src="./assets/folder-icon.png" width="30px"></div>
+                                        <div>HackTheBox <span>(Inactive)</span></div>
+                                    </div>
+                                </button>
+                                <ul class="dropdown-container level2">
+                                    <li class="li_ctf" onclick="redirect_page('Ypuffy')">
+                                        <div class="img_ctf_htb" id="htb_ypuffy_img"><img src="./assets/machines/ypuffy.png" alt="Ypuffy"></div>
+                                        <div class="name_ctf_htb"  id="htb_ypuffy_name">YPuffy</div>
+                                    </li>
+                                    <li class="li_ctf" onclick="redirect_page('Jerry')">
+                                        <div class="img_ctf_htb"  id="htb_jerry_img"><img src="./assets/machines/jerry.png" alt="Ypuffy"></div>
+                                        <div class="name_ctf_htb"  id="htb_jerry_name">Jerry</div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- Challenge HTB-->
+                            <li>
+                                <button class="dropdown-btn">
+                                    <div class="content_btn">
+                                        <div><img src="./assets/folder-icon.png" width="30px"></div>
+                                        <div>HackTheBox <span>(Challenge)</span></div>
+                                    </div>
+                                </button>
+                                <ul class="dropdown-container level2">
+                                    <li>
+                                        <button class="dropdown-btn">
+                                            <div class="content_btn">
+                                                <div><img src="./assets/folder-icon.png" width="30px"></div>
+                                                <div>Web</div>
+                                            </div>
+                                        </button>
+                                        <ul class="dropdown-container level3">
+                                            <li>123</li>
+                                        </ul>
+                                    </li>                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div>
+                <span class="red">┌─[</span><span class="green">xtrate</span><span class="yellow">@</span><span class="aqua">parrot</span><span class="red">]─[</span><span class="green">~/Desktop/GitHub</span><span class="red">]</span><br/>
+            <span class="red">└──&bull;</span><span class="yellow"> $</span> ./contact <br/>
+                
+            <div class="contact">
+                Protonmail: xtrate<br>
+            </div>
+        </div>
+        <div>
+            xTrate
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
